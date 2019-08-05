@@ -11,7 +11,7 @@
   'page/27/ng-name' => 'Технічні характеристики {group_name}',
   'page/136/name' => 'Про проект',
   'page/136/title' => 'About us',
-  '{count} vehicles' => '{count, plural, one {{count} vehicle} other {{count} vehicles}}',
+  '{count} vehicles' => '{count, plural, one {{count} автомобіль} other {{count} автомобілів}}',
   'select' => 'select',
   'picture/text' => 'Всі зображення є чиєюсь власністю.
 
@@ -22,9 +22,9 @@
   'specs/attrs/157/options/euro-5a' => 'Euro 5a',
   'specs/attrs/157/options/euro-5b' => 'Euro 5b',
   'item/type/9/add-sub-item' => 'Add sub copyright block',
-  'item/type/9/name' => 'Copyright block',
-  'item/type/9/new-item' => 'New copyright block',
-  'item/type/9/name-plural' => 'Copyright blocks',
+  'item/type/9/name' => 'Блок копірайтів',
+  'item/type/9/new-item' => 'Новий блок копірайтів',
+  'item/type/9/name-plural' => 'Блоки копірайтів',
   'specs/attrs/22/23/options/common-rail' => 'Common Rail',
   'specs/attrs/22/23/options/common-rail/mechanical' => 'Common Rail (механічне впорскування)',
   'specs/attrs/22/23/options/common-rail/electronic' => 'Common Rail (електронне впорскування)',
@@ -69,7 +69,7 @@
     3.  Некоректні повідомлення будуть видалятися без попередження
 3.  ## Форум
 
-    1.  Заборонено використання написання великими літерами, сприйманого як крик
+    1.  Заборонено використання написання великими літерами, яке сприймається як крик
     2. Заборонено "оффтопік" в будь-якому вигляді
     3. Заборонено створення однакових тем в декількох гілках
     4. Заборонено порушення питання про "кращий автомобіль", без уточнення сфери використання
@@ -79,12 +79,12 @@
 
     1. Назви автомобілів присвоюються відповідно до їх оригінальної назви, доступної на кузові або в офіційних виданнях компанії
     2. Назва автомобіля пишеться з великої літери, але допускається написання тільки малими або тільки великими літерами, якщо це відповідає офіційному найменуванню автомобіля
-    3. Бажано вказівку коду кузова / серії / моделі
-    4. Допустимо використання кирилиці, латиниці, окремих символів грецького алфавіту
-    5.  Допустимо использование цифр
+    3. Бажано вказання коду кузова / серії / моделі
+    4. Допустиме використання кирилиці, латиниці, окремих символів грецького алфавіту
+    5. Допустиме використання цифер
     6. Можливе використання спеціальних символів, якщо такі застосовувалися виробником
     7. Для поділу автомобілів за типом кузова, допустимо додавати його до назви
-    8. Допустимо додавання до назви інформації, що ідентифікує ринок збуту, для поділу автомобілів за цією ознакою. Наприклад, UK-spec, North America, ZA-spec
+    8. Допустиме додавання до назви інформації, що ідентифікує ринок збуту, для поділу автомобілів за цією ознакою. Наприклад, UK-spec, North America, ZA-spec
     9. Адаптовані до мовної версії сайту назви автомобілів слідують тим же правилам, але не мають обмеження на використовуваний алфавіт',
   'page/18/name' => '%PICTURE_NAME%',
   'page/23/name' => '%CATEGORY_NAME%',
@@ -198,8 +198,8 @@
   '{topics} topics and {messages} messages' => '{topics, plural, one {{topics} тема} few {{topics} теми} many {{topics} тем} other {{topics} тем}} и {messages, plural, one {{messages} повідомлення} few {{messages} повідомлень} many {{messages} повідомлень} other {{messages} повідомлень}}',
   'year' => 'Рік',
   'month' => 'Місяць',
-  'contributor' => 'упорядник',
-  'contributors' => 'упорядники',
+  'contributor' => 'впорядник',
+  'contributors' => 'впорядники',
   'deleted-user' => 'видалений користувач',
   'submit' => 'Надіслати',
   'layout/meta/description' => 'Енциклопедія автомобілів в зображеннях. WheelsAge.org',
@@ -270,8 +270,8 @@
   'item/type/3/name-plural' => 'Категорії',
   'item/type/3/new-item' => 'Нова категорія',
   'item/type/3/add-sub-item' => 'Додати підкатегорію',
-  'item/type/4/name' => 'Близнюки',
-  'item/type/4/name-plural' => 'Близнюки',
+  'item/type/4/name' => 'Близнята',
+  'item/type/4/name-plural' => 'Близнята',
   'item/type/4/new-item' => 'Нова група близнят',
   'item/type/4/add-sub-item' => 'Додати підкатегорію близнят',
   'item/type/5/name' => 'Марка',
@@ -300,7 +300,7 @@
   'carlist/no-photo/add' => 'Додати зображення',
   'carlist/all pictures' => 'всі зображення',
   'carlist/details' => 'детальніше',
-  'carlist/twins' => 'близнюки',
+  'carlist/twins' => 'близнята',
   'carlist/produced/one' => 'Виготовлено у єдиному екземплярі',
   'ng/carlist/produced/%1$s' => '{count, plural, one {Виготовлена {count} одиниця} few {Виготовлено {count} одиниць} many {Виготовлені {count} одиниці} other {Виготовлені {count} одиниці}}',
   'ng/carlist/produced-about/%1$s' => '{count, plural, one {Виготовлена приблизно {count} одиниця} few {Виготовлено приблизно {count} одиниць} many {Виготовлені приблизно {count} одиниць} other {Виготовлені приблизно {count} одиниць}}',
@@ -372,7 +372,7 @@
   'most/bigclearance/param' => 'дорожній просвіт',
   'most/smallclearance' => 'малий кліренс',
   'most/smallclearance/param' => 'дорожній просвіт',
-  'mosts/sidebar/mostly…' => 'Самі ...',
+  'mosts/sidebar/mostly…' => 'Най ...',
   'mosts/sidebar/between…' => 'Серед ...',
   'mosts/period/before1920' => ' до 1920',
   'mosts/period/1920-29' => '1920-29их',
@@ -562,7 +562,7 @@
   'account/specs/conflicts/my-value/none' => 'нема',
   'account/email/your-current-email:' => 'Ваша поточна адреса e-mail: ',
   'account/email/your-dont-enter-email' => 'Ви не вказали адресу e-mail',
-  'account/email/text' => 'На цій сторінці Ви можете змінити свой e-mail
+  'account/email/text' => 'На цій сторінці Ви можете змінити свій e-mail
 
 На нову адресу буде надісланий лист з інструкціями для її підтверждення',
   'account/accounts/add' => 'Додати обліковий запис',
@@ -693,7 +693,7 @@ E-mail: %2$s
 Постараємося вас не розчарувати.',
   'donate/vod/text' => 'Те невелике, що ми можемо запропонувати взамін фінансової допомоги для існування сайту – це можливість вибирати найближчий "автомобіль дня".
 
-Для цього слідуйте інструкціям нижче.
+Для цього дотримуйтесь інструкції нижче.
 
 Ми будемо раді, якщо ви захочете [здійснити безкорисну пожертву](/ng/donate) на вільну суму.',
   'donate/vod/select-date' => '1. Виберіть дату',
@@ -761,7 +761,7 @@ E-mail: %2$s
   'car-type/tonneau' => 'Тонно',
   'car-type/2-floor-bus' => '2-х поверховий автобус',
   'car-type/town-car' => 'Таун кар',
-  'car-type/barchetta' => 'Баркетта',
+  'car-type/barchetta' => 'Баркета',
   'car-type/moto' => 'Мото',
   'car-type/tractor' => 'Трактор',
   'car-type/tracked' => 'Гусенична платформа',
@@ -977,7 +977,7 @@ E-mail: %2$s
   'page/37/title' => 'Концепти і прототипи %BRAND_NAME%',
   'page/39/title' => 'Логотипи %BRAND_NAME%',
   'page/40/title' => '%BRAND_NAME% Різне',
-  'page/41/title' => 'Несортовано',
+  'page/41/title' => 'Несортоване',
   'page/48/title' => 'Особистий кабінет',
   'page/56/title' => 'Зміна e-mail',
   'page/57/title' => 'Підписки в форумі',
@@ -1080,7 +1080,7 @@ E-mail: %2$s
   'moder/pictures/filter/order/resolution-asc' => 'Розширення (маленькі)',
   'moder/pictures/filter/order/filesize-desc' => 'Розмір (великі)',
   'moder/pictures/filter/order/filesize-asc' => 'Розмір (маленькі)',
-  'moder/pictures/filter/order/commented' => 'Коментуємі',
+  'moder/pictures/filter/order/commented' => 'Коментовані',
   'moder/pictures/filter/order/views' => 'Перегляди',
   'moder/pictures/filter/order/moder-votes' => 'Заявки на прийняття/видалення',
   'moder/pictures/filter/order/removing-date' => 'Дата видалення',
@@ -1153,12 +1153,12 @@ E-mail: %2$s
   'moder/vehicle/catalogue/title/remove' => 'Вид.',
   'moder/vehicle/catalogue/select' => 'Вибрати ...',
   'moder/vehicle/catalogue/select-placeholder' => 'Додати батька ...',
-  'moder/vehicle/catalogue/possible-duplicate-parent' => 'Можливо повтор: автомобіль уже унаслідуваний через: ',
+  'moder/vehicle/catalogue/possible-duplicate-parent' => 'Можливо повтор: автомобіль вже успадкований через: ',
   'moder/vehicle/catalogue/possible-duplicate-child' => 'Можливо повтор: автомобіль вже є у в підрозділі: ',
   'moder/vehicle/catalogue/parent-name-placeholder' => 'Назва',
   'moder/vehicle/catalogue/parent-catname-placeholder' => 'частина URL',
   'moder/vehicle/catalogue/turbo-group-creator' => 'Турбо-об\'єднювач в групи',
-  'moder/vehicle/catalogue/turbo-group-creator/text' => 'Інструмент для об\'єднання декількох автомобілей в під-модель',
+  'moder/vehicle/catalogue/turbo-group-creator/text' => 'Інструмент для об\'єднання декількох автомобілів в під-модель',
   'moder/vehicle/catalogue/turbo-group-creator/vehicles' => 'Автомобілі',
   'moder/vehicle/catalogue/add-brand' => 'Бренд ...',
   'moder/vehicle/catalogue/add-brand-%s' => 'Бренд %s',
@@ -1294,7 +1294,7 @@ E-mail: %2$s
 [4](https://daringfireball.net/projects/markdown/basics),
 [5](http://rukeba.com/by-the-way/markdown-sintaksis-po-russki)
 
-Посилання на внутрішньосайтові сторінки потрібно писати не повністю: ~~http://autowp.ru/bmw/~~ */bmw/*',
+Посилання на внутрішні сторінки сайту потрібно писати не повністю: ~~http://autowp.ru/bmw/~~ */bmw/*',
   'moder/markdown/edit' => 'Редактувати',
   'moder/markdown/preview' => 'Попередній перегляд',
   'moder/markdown/history' => 'Історія',
@@ -1411,10 +1411,10 @@ E-mail: %2$s
   'specifications-editor/engine/inherited-from' => 'Успадковано від',
   'specifications-editor/engine/select-another' => 'Вибрати інший двигун',
   'specifications-editor/engine/cancel' => 'Відмітити двигун',
-  'specifications-editor/engine/inherit' => 'Наслідувати двигун',
+  'specifications-editor/engine/inherit' => 'Успадкувати двигун',
   'specifications-editor/engine/not-selected' => '[не вибраний]',
   'specifications-editor/engine/select' => 'Вибрати двигун',
-  'specifications-editor/engine/dont-inherit' => 'Не наслідувати двигун',
+  'specifications-editor/engine/dont-inherit' => 'Не успадковувати двигун',
   'specifications-editor/save' => 'Зберегти',
   'specifications-editor/log' => 'Журнал ТТХ',
   'specifications-editor/log/date' => 'Дата',
@@ -1430,7 +1430,7 @@ E-mail: %2$s
 Введення даних тимчасово призупинено. Прохання виправити ситуацію, провести ревізію конфліктів.
 
 Здійснити це допоможе [спеціальний інтерфейс](/account/specs-conflicts/conflict/minus-weight), в якому зібрані як мінімум ті помилки, які помітили користувачі сайту.',
-  'specifications-editor/errors-alert' => '**Увага!** Імовірно, у вас накопичилася велика кількість помилок.
+  'specifications-editor/errors-alert' => '**Увага!** Імовірно, у вас накопилась велика кількість помилок.
 
 Деякі з них, помічені іншими користувачами, ви можете знайти [тут](/ng/account/specs-conflicts)',
   'specifications-editor/admin/date' => 'Дата',
@@ -1478,7 +1478,7 @@ E-mail: %2$s
   'moder/vehicle/changes/produced/count-%s-%s' => 'кількість випущених одиниць з "%s" на "%s"',
   'moder/vehicle/changes/produced/exactly-%s-%s' => 'точність кількості випущених одиниць з "%s" на "%s"',
   'moder/vehicle/changes/is-group-%s-%s' => 'прапор "група" з "%s" на "%s"',
-  'moder/vehicle/changes/car-type-%s-%s' => 'тип кузова з "%s" на "%s"',
+  'moder/vehicle/changes/car-type-%s-%s' => 'тип кузову з "%s" на "%s"',
   'moder/vehicle/changes/model-years/from-%s-%s' => 'модельний рік початку випуску з "%s" на "%s"',
   'moder/vehicle/changes/model-years/to-%s-%s' => 'модельний рік закінчення випуску з "%s" на "%s"',
   'moder/vehicle/changes/spec-%s-%s' => 'spec з "%s" на "%s"',
@@ -1585,11 +1585,11 @@ E-mail: %2$s
   'specs/attrs/22/98/options/45' => 'АІ-98',
   'specs/attrs/22/98/options/34' => 'CNG',
   'specs/attrs/22/98/options/35' => 'LPG',
-  'specs/attrs/22/19' => 'розположення',
-  'specs/attrs/22/19/20' => 'розположення',
+  'specs/attrs/22/19' => 'розміщення',
+  'specs/attrs/22/19/20' => 'розміщення',
   'specs/attrs/22/19/20/options/1' => 'спереду',
   'specs/attrs/22/19/20/options/2' => 'ззаду',
-  'specs/attrs/22/19/20/options/3' => 'центральне',
+  'specs/attrs/22/19/20/options/3' => 'по центру',
   'specs/attrs/22/19/21' => 'орієнтація',
   'specs/attrs/22/19/21/options/4' => 'поздовжньо',
   'specs/attrs/22/19/21/options/5' => 'поперечно',
@@ -1731,7 +1731,7 @@ E-mail: %2$s
   'specs/attrs/15/208/210/options/131' => 'залежна з впираючою трубою або дишлом (Torque-tube або Torque-Rod)',
   'specs/attrs/15/208/210/options/132' => 'незалежна з коливаючимися напівосями',
   'specs/attrs/15/208/210/options/133' => 'незалежна на поздовжніх важелях',
-  'specs/attrs/15/208/210/options/134' => 'незалежна підвіска Дюбонне',
+  'specs/attrs/15/208/210/options/134' => 'незалежна підвіска Дюбоне',
   'specs/attrs/15/208/210/options/135' => 'незалежна на кривих важелях',
   'specs/attrs/15/208/210/options/136' => 'незалежна на подвійних поперечних важелях',
   'specs/attrs/15/208/210/options/137' => 'незалежна багатоважільна',
